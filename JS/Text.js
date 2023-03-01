@@ -71,12 +71,68 @@ ou loop
  * Para cada propriedade do meu objeto, o que o JavaScript
  */
 
-let person = {
-    name: 'Dylan',
-    age: 31,
-    weight: 60
+//let person = {
+//    name: 'Dylan',
+//    age: 31,
+//    weight: 60
+//}
+
+//for(let property in person) {
+//    console.log(person[property])
+//}
+
+// Estrutura de Repetição
+
+// O que é?
+
+/**
+ * É usada quando queremos realizar uma ação repetidas vezes.
+ * 
+ * Estruturas de repetição que existem:
+ * -> for, while, do...while,
+ * 
+ */
+
+//for(let i = 0; i < 10; i++) {
+//    console.log(i);
+// }
+
+// Palavra-chave for
+// Declaração da variavel
+// Condição
+// Incremento / Decremento
+
+// While = enquanto
+
+//var i = 0;
+
+//while(i < 10) {
+//    console.log(i);
+//    i++;
+// }
+
+// do...while
+
+//do{
+//    console.log(i);
+//    i++
+// } while (i < 10);
+
+// for...of
+
+let esportes = ['futebol', 'basquete', 'vôlei', 'skate'];
+
+for(let esporte of esportes) {
+    console.log(esporte);
 }
 
+let person = {
+    name: 'John',
+    age: 31,
+    weight: 60
+};
+
 for(let property in person) {
-    console.log(person[property])
+    console.log(property);
+    //console.log(person[property]);
 }
